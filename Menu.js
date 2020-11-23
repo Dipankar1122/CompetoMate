@@ -8,7 +8,7 @@ import { createStackNavigator } from '@react-navigation/stack';
 import Profile from './Profile';
 import UserME from '../../api/UserMe';
 import Settings from './Settings';
-import Cart from './Cart';
+import User2 from './User2';
 import MyTabs from '../BottomTab/MyTabs';
 import Icon from 'react-native-vector-icons/Ionicons'
 import analytics from '@react-native-firebase/analytics';
