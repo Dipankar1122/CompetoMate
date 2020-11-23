@@ -57,12 +57,12 @@ export default function Menu() {
           headerRight: () => (
             <Button 
             icon={ 
-              <Icon name="md-cart" color="#008080" size={30} style={{marginRight: 10,}} />
+              <Icon name="md-user2" color="#008080" size={30} style={{marginRight: 10,}} />
             }
-              onPress={() => analytics().logEvent('Cart', {
+              onPress={() => analytics().logEvent('user2', {
                 id: 3745092,
                 item: 'it worked!!',
-                description: ['round neck', 'long sleeved'],
+                description: ['name', 'profession/hobbies'],
                 size: 'L',
               })
             }
@@ -71,7 +71,7 @@ export default function Menu() {
               
             />),   
         }}/>
-        <Stack.Screen name="Cart" component={Cart} />
+        <Stack.Screen name="User2" component={User} />
     </Stack.Navigator>
     </NavigationContainer>
   );
